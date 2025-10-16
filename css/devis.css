@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(208, 226, 241);   
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(56, 134, 165);
+}
+
+.p3{
+    width: 1400px;
+    font-size: 25px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+}
+.container2{
+    background: linear-gradient(70deg,whitesmoke,skyblue,whitesmoke);
+    width: 500px;
+    margin-left: 500px;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif sans-serif;
+}
+
+.formulaire{
+    padding: 40px;
+    margin: 30px;
+    /* box-shadow: 0px 10px 20px 0px rgba(0,0,0,.1); */
+}
+
+input{
+    font-weight:  bold;
+    opacity: .7;
+    height: 25px;
+}
+
+label{
+    font-weight: bold;
+}
+
+textarea{
+    height: 150px;
+    width: 250px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    width: 100px;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: rgb(20, 32, 171);
+    height: 40px;
+    /* position: relative; */
+}
+
+a{
+    color: pink;
+}
+

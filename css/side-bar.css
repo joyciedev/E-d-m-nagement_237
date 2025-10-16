@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    background-color: rgb(20, 32, 171);
+    height: 100%;
+    margin-top: 0px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.sb{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sb li{
+    list-style: none;
+}
+
+.sb li a{
+    text-decoration: none;
+    color: black;
+}

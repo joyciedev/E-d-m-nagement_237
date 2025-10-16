@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.search-container{
+    background-color: rgb(238, 236, 236);
+    width: 400px;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 300px;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border-top: 1px;
+    border-left: 1px;
+    border-radius: 10px;
+}
+
+.table{
+    margin-left: 600px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.details-table{
+    padding: 50px;
+}

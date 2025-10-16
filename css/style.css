@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 236, 236);
+}
+
+.Search-container{
+    height: 100%;
+    width: 100%;
+}
+
+.hero-image{
+    background-image: url(../images/monde.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    filter: blur(4px);  
+    position: relative;
+}
+
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    display: flex;
+    padding-top: 150px;
+    /* margin: 20px; */
+}
+
+.hero-text img{
+    height: 400px;
+    padding-right: 50px;
+
+}
+
+.paragraphe{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 80px;
+    width: 600px;
+    /* text-align: center; */
+
+}
+
+.span1{
+    color: skyblue;
+}
+
+
+.icons{
+    color: rgb(56, 134, 165);
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+
+.delivery-icon{
+    font-size: 40px;
+}
+
+
+.service-items{
+    text-align: center;
+}
+
+.details{
+    width: 200px;
+    
+}
+
+.head{
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+}
+
+h4{
+    color: rgb(56, 134, 165);
+}
+
+.services-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(56, 134, 165);
+}
+
+.services{
+    margin: 50px;
+}
+
+.service-text{
+    width: 800px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}
+
+.services-details{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.fast1{
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.fast2{
+    padding-left: 320px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.image{
+    border-radius: 150px;
+    
+}
+
+h4,.p2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.footer{
+    background-color: rgb(136, 199, 224);
+    display: flex;
+}
+
+.div1{
+    height: 250px;   
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.div1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.div1 p{
+    margin-top: 20px;
+}
+
+h5{
+    background-color:  rgb(136, 199, 224);
+    padding: 40px;
+    text-align: center;
+}
+
+.delivery-icons{
+    padding-left: 35px;
+    margin-top: 15px;
+}

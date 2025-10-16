@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+    background-image: url(../images/monde.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.Search-container{
+    background-color: rgb(113, 139, 209);
+    width: 400px;
+    height: 300px;
+    padding: 25px;
+    
+
+}
+.container{
+    text-align: center;
+    
+}
+
+input{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-right: 1px;
+    border-bottom: 1px;
+    width: 250px;
+}
+
